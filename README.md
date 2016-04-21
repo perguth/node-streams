@@ -48,7 +48,7 @@ The accompanying presentation was split into thee parts:
 
 1. [Streams Introduction](http://slides.com/queicherius/reactive-pattern#/) by [David](https://github.com/queicherius).
 2. NodeJS Streams by example by me: see above.
-3. RxJS introduction by [Paul](https://github.com/paulsonnentag)
+3. RxJS introduction by [Paul](https://github.com/paulsonnentag).
 
 # Consume streams
 
