@@ -22,8 +22,8 @@ node server.js
 - Short conceptual intro: [intro.md](./intro.md)
 - Main example: [index.js](./index.js), [server.js](./server.js)
 - Stream overview files, showing the API and provided events:
-	- [Readables.js](./Readables.js)
-	- [Writables.js](./Writables.js)
+	- [Readables.js](./Readable.js)
+	- [Writables.js](./Writable.js)
 	- [Transform.js](./Transform.js)
 - A crypot wrapper: [crypto.js](./crypto.js)
 
