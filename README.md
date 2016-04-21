@@ -5,6 +5,22 @@
 
 All streams are instances of EventEmitter. You can load the Stream base classes by doing require('stream'). It is not necessary to implement Stream interfaces in order to consume streams in your programs.
 
+#### Three major concepts
+<sup>See: [Node.js streams demystified](https://gist.github.com/joyrexus/10026630)</sup>
+
+1. **Source** - Where the data comes from.
+2. **Pipeline** - Where you filter or transform your data as it passes through,
+3. **Sink** - Where your data ultimately goes.
+
+#### Five classes of streams
+<sup>See: [Node.js streams demystified](https://gist.github.com/joyrexus/10026630)</sup>
+
+1. **Readable** - sources
+2. **Writable** - sinks
+3. **Duplex** - both source and sink
+4. **Transform** - in-flight stream operations
+5. **Passthrough** - stream spy
+
 ### Running examples
 
 ```sh
@@ -19,13 +35,12 @@ node server.js
 
 ### Attached JS files
 
-- Short conceptual intro: [intro.md](./intro.md)
 - Main example: [index.js](./index.js), [server.js](./server.js)
 - Stream overview files, showing the API and provided events:
 	- [Readables.js](./Readable.js)
 	- [Writables.js](./Writable.js)
 	- [Transform.js](./Transform.js)
-- A crypot wrapper: [crypto.js](./crypto.js)
+- A crypto wrapper: [crypto.js](./crypto.js)
 
 ### The presentation
 
