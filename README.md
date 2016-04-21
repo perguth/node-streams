@@ -17,6 +17,16 @@ node server.js
 # Now go to http://localhost:9966 and select one of the text files with the file picker.
 ```
 
+### Attached JS files
+
+- Short conceptual intro: [./intro.md]()
+- Main example: [./index.js](), [./server.js]()
+- Stream overview files, showing the API and provided events:
+	- [./Readables.js]()
+	- [./Writables.js]()
+	- [./Transform.js]()
+- A crypot wrapper: [./crypto.js]()
+
 ### The presentation
 
 The accompanying presentation was split into thee parts:
