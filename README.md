@@ -1,6 +1,11 @@
-# Node Streams
+# My NodeJS Streams Knowledgebase
+<sup>99% of the text stems from [https://nodejs.org/api/stream.html]()</sup>
 
-> Summary and examples regarding NodeJS Streams.
+> Almost all Node.js programs, no matter how simple, use Streams in some way.
+
+All streams are instances of EventEmitter. You can load the Stream base classes by doing require('stream'). It is not necessary to implement Stream interfaces in order to consume streams in your programs.
+
+## Running examples
 
 ```sh
 git clone https://github.com/pguth/node-streams.git
@@ -12,20 +17,13 @@ node server.js
 # Now go to http://localhost:9966 and select one of the text files with the file picker.
 ```
 
+## The presentation
+
 The accompanying presentation was split into thee parts:
 
 1. [Streams Introduction](http://slides.com/queicherius/reactive-pattern#/) by [David](https://github.com/queicherius).
 2. NodeJS Streams by example by me: see above.
 3. RxJS introduction by [Paul](https://github.com/paulsonnentag)
-
-
-# My NodeJS Streams Knowledgebase
-<sup>99% of the text stems from [https://nodejs.org/api/stream.html]()</sup>
-
-> Almost all Node.js programs, no matter how simple, use Streams in some way.
-
-All streams are instances of EventEmitter. You can load the Stream base classes by doing require('stream'). It is not necessary to implement Stream interfaces in order to consume streams in your programs.
-
 
 # Consume streams
 
