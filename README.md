@@ -5,7 +5,7 @@
 
 All streams are instances of EventEmitter. You can load the Stream base classes by doing require('stream'). It is not necessary to implement Stream interfaces in order to consume streams in your programs.
 
-## Running examples
+### Running examples
 
 ```sh
 git clone https://github.com/pguth/node-streams.git
@@ -17,7 +17,7 @@ node server.js
 # Now go to http://localhost:9966 and select one of the text files with the file picker.
 ```
 
-## The presentation
+### The presentation
 
 The accompanying presentation was split into thee parts:
 
