@@ -1,14 +1,20 @@
 {
-  "name": "referat",
+  "name": "node-streams",
   "version": "1.0.0",
-  "description": "",
+  "description": "Summary and examples regarding NodeJS Streams.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Per Guth <mail@perguth.de>",
+  "license": "MIT",
   "dependencies": {
-    "filestream": "^4.1.3"
+    "budo": "^8.2.1",
+    "crypto": "0.0.3",
+    "filestream": "^4.1.3",
+    "http": "0.0.0",
+    "inherits": "^2.0.1",
+    "request": "^2.72.0",
+    "stream": "0.0.2"
   }
 }
