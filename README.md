@@ -19,13 +19,13 @@ node server.js
 
 ### Attached JS files
 
-- Short conceptual intro: [./intro.md]()
-- Main example: [./index.js](), [./server.js]()
+- Short conceptual intro: [intro.md](./intro.md)
+- Main example: [index.js](./index.js), [server.js](./server.js)
 - Stream overview files, showing the API and provided events:
-	- [./Readables.js]()
-	- [./Writables.js]()
-	- [./Transform.js]()
-- A crypot wrapper: [./crypto.js]()
+	- [Readables.js](./Readables.js)
+	- [Writables.js](./Writables.js)
+	- [Transform.js](./Transform.js)
+- A crypot wrapper: [crypto.js](./crypto.js)
 
 ### The presentation
 
