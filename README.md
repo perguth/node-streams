@@ -1,6 +1,6 @@
 # NodeJS Streams: Cheatsheet and examples
 
-### Attached JS files
+##### Attached JS files
 
 - Main example: [index.js](./index.js), [server.js](./server.js)
 - Stream overview files, showing the API and provided events:
