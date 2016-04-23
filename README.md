@@ -179,7 +179,7 @@ The return value indicates if you should continue writing right now. This return
 - **Methods**
 	- `._write(chunk, encoding, callback)`  
 	"chunk" Will always be a buffer unless the decodeStrings option was set to false and an encoding is given.  
-	Call this function (optionally with an error argument) when you are done processing the supplied chunk.
+	Call the often "next" named callback function (optionally with an error argument) when you are done processing the supplied chunk.
 
 
 ## Duplex
