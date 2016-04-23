@@ -1,4 +1,15 @@
-# My NodeJS Streams Knowledgebase
+# NodeJS Streams: Cheatsheet and examples
+
+### Attached JS files
+
+- Main example: [index.js](./index.js), [server.js](./server.js)
+- Stream overview files, showing the API and provided events:
+	- [Readables.js](./Readable.js)
+	- [Writables.js](./Writable.js)
+	- [Transform.js](./Transform.js)
+- A crypto wrapper: [crypto.js](./crypto.js)
+
+# Cheatsheet
 <sup>99% of the text stems from [https://nodejs.org/api/stream.html]()</sup>
 
 > Almost all Node.js programs, no matter how simple, use Streams in some way.
@@ -33,22 +44,12 @@ node server.js
 # Now go to http://localhost:9966 and select one of the text files with the file picker.
 ```
 
-### Attached JS files
+### Acknowledgements :fireworks:
 
-- Main example: [index.js](./index.js), [server.js](./server.js)
-- Stream overview files, showing the API and provided events:
-	- [Readables.js](./Readable.js)
-	- [Writables.js](./Writable.js)
-	- [Transform.js](./Transform.js)
-- A crypto wrapper: [crypto.js](./crypto.js)
+This material was produced as a preparation of myself for a presentation in a row of presentations held together with these cool guys:
 
-### The presentation
-
-The accompanying presentation was split into thee parts:
-
-1. [Streams Introduction](http://slides.com/queicherius/reactive-pattern#/) by [David](https://github.com/queicherius).
-2. NodeJS Streams by example by me: see above.
-3. RxJS introduction by [Paul](https://github.com/paulsonnentag).
+- [Streams Introduction](http://slides.com/queicherius/reactive-pattern#/) by [David](https://github.com/queicherius).
+- RxJS introduction by [Paul](https://github.com/paulsonnentag).
 
 # Consume streams
 
