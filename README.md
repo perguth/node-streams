@@ -139,7 +139,7 @@ The return value indicates if you should continue writing right now. This return
 | Operate on written data,
   then read the result      | Transform | \_transform!, \_flush?         
 
-In your implementation code, it is very important to never call the methods described in API for Stream Consumers. Otherwise, you can potentially cause adverse side effects in programs that consume your streaming interfaces.
+**In your implementation code, it is very important to never call the methods described in API for Stream Consumers.** Otherwise, you can potentially cause adverse side effects in programs that consume your streaming interfaces.
 
 **Note:** Method prefixed with an underscore are internal to the class that defines it, and should not be called directly by user programs. However, you are expected to override this method in your own extension classes.
 
