@@ -9,6 +9,19 @@
 	- [Transform.js](./Transform.js)
 - A crypto wrapper: [crypto.js](./crypto.js)
 
+##### Running examples
+
+```sh
+git clone https://github.com/pguth/node-streams.git
+cd node-streams
+npm install
+budo --live --host localhost index.js
+# in a second terminal:
+node server.js
+# Now go to http://localhost:9966 and select one of the text files with the file picker.
+# Within index.js uncomment the function calls that are of interest to you.
+```
+
 ## Cheatsheet
 <sup>99% of the text stems from [https://nodejs.org/api/stream.html]()</sup>
 
@@ -31,18 +44,6 @@ All streams are instances of EventEmitter. You can load the Stream base classes 
 3. **Duplex** - both source and sink
 4. **Transform** - in-flight stream operations
 5. **Passthrough** - stream spy
-
-### Running examples
-
-```sh
-git clone https://github.com/pguth/node-streams.git
-cd node-streams
-npm install
-budo --live --host localhost index.js
-# in a second terminal:
-node server.js
-# Now go to http://localhost:9966 and select one of the text files with the file picker.
-```
 
 ### Acknowledgements :fireworks:
 
