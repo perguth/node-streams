@@ -23,7 +23,7 @@ node server.js
 ```
 
 ## Cheatsheet
-<sup>99% of the text stems from [https://nodejs.org/api/stream.html]()</sup>
+<sup>99% of this text stems from [https://nodejs.org/api/stream.html]()</sup>
 
 > Almost all Node.js programs, no matter how simple, use Streams in some way.
 
