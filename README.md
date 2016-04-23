@@ -9,7 +9,7 @@
 	- [Transform.js](./Transform.js)
 - A crypto wrapper: [crypto.js](./crypto.js)
 
-# Cheatsheet
+## Cheatsheet
 <sup>99% of the text stems from [https://nodejs.org/api/stream.html]()</sup>
 
 > Almost all Node.js programs, no matter how simple, use Streams in some way.
