@@ -45,13 +45,6 @@ All streams are instances of EventEmitter. You can load the Stream base classes 
 4. **Transform** - in-flight stream operations
 5. **Passthrough** - stream spy
 
-### Acknowledgements :fireworks:
-
-This material was produced as a preparation of myself for a presentation in a row of presentations held together with these cool guys:
-
-- [Streams Introduction](http://slides.com/queicherius/reactive-pattern#/) by [David](https://github.com/queicherius).
-- RxJS introduction by [Paul](https://github.com/paulsonnentag).
-
 # Consume streams
 
 ## Readables
@@ -234,3 +227,11 @@ var duplex = new stream.Duplex({
   }
 });
 ```
+
+
+## Acknowledgements :fireworks:
+
+This material was produced as a preparation of myself for a presentation in a row of presentations held together with these cool guys:
+
+- [Streams Introduction](http://slides.com/queicherius/reactive-pattern#/) by [David](https://github.com/queicherius).
+- RxJS introduction by [Paul](https://github.com/paulsonnentag).
