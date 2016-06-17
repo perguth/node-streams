@@ -1,4 +1,5 @@
-# NodeJS Streams: Cheatsheet and examples
+![Stream Design Illustration](stream.png)
+--
 
 ##### Attached JS files
 
