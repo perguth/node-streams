@@ -3,6 +3,8 @@
 
 ##### Attached JS files
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pguth/node-streams.svg)](https://greenkeeper.io/)
+
 - Main example: [index.js](./index.js), [server.js](./server.js)
 - Stream overview files, showing the API and provided events:
 	- [Readables.js](./Readable.js)
