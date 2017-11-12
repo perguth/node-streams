@@ -16,6 +16,7 @@
 git clone https://github.com/pguth/node-streams.git
 cd node-streams
 npm install
+npm install -g budo
 budo --live --host localhost index.js
 # in a second terminal:
 node server.js
